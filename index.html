@@ -1,0 +1,399 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Personal Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/6777b8b36a.js" crossorigin="anonymous"></script>
+</head>
+    <h1 id="logo"><span>A</span>S</h1>
+    <div id="header">
+        <div class="container">
+            <nav>
+                <!-- <img src="images/bg1.jpg"> -->
+                <ul id="sidemenu"> 
+                    <i class="fa-regular fa-address-card"></i>
+                    <li><a href="#about">About</a></li>
+                    <i class="fa-solid fa-shield-halved"></i>
+                    <li><a href="#Portfolio">Achievement</a></li>
+                    <i class="fa-solid fa-star"></i>
+                    <li><a href="#services">Experience</a></li>
+                    <i class="fa-solid fa-phone"></i>
+                    <li><a href="#contact">Contact</a></li>
+                    <i class="fas fa-times" onclick="closemenu()"></i>
+                </ul>
+                <i class="fas fa-bars" onclick="openmenu()"></i>
+            </nav>
+            <div class="header-text">
+                <h1>Hi,I'm <span>Anjana</span><br> </h1>
+                <p>A passionate Computer Science and Engineering student<br>
+                     with a strong foundation in software development.</p>
+                <h1 id="sub-title-1"><span>Welcome to My Portfolio</span></h1>
+            </div>
+            <!-- <div class="header-image">
+                <img src="images/bg1.jpg" alt="Background Image">
+            </div> -->
+        </div>
+
+    </div>
+
+    <!-- -------------------About-------------------- -->
+    <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="about-col-1">
+                    <img src="images/bg1.jpg">
+                </div>
+                <div class="about-col-2">
+                    <h1 class="sub-title">About Me</h1>
+                    <p>Hello! I'm Anjana, a passionate Computer Science and Engineering student with a strong foundation in software development, algorithms, and problem-solving. My journey in technology started with a curiosity for how things work and has evolved into a deep interest in creating innovative solutions to real-world problems.I am currently pursuing my degree in Computer Science and Engineering, where I have gained comprehensive knowledge in various programming languages, data structures, and software engineering principles. My coursework and projects have provided me with practical experience and a solid theoretical background in computing.</p>
+
+
+                    <div class="tab-title">
+                        <p class="tab-links active-link" onclick="opentab('skills')">skills</p>
+                        <p class="tab-links " onclick="opentab('experience')">experience</p>
+                        <p class="tab-links" onclick="opentab('education')">education</p>
+                    
+                        
+                     </div>
+                     <div class="tab-contents active-tab" id="skills">
+                         <ul>
+                            <li><span>Programming Languages:</span> Proficient in C++, Java, and Python.</li>
+                            <li><span>Web Development:</span>Experience with HTML, CSS, JavaScript, and frameworks like React</li>
+                            <li><span>Data Structures and Algorithms:</span>Strong understanding and application in problem-solving.</li>
+                            <li><span>Strong understanding and implementation of data structures.</span>(arrays, linked lists, trees, graphs, hash tables)</li>
+                            <li><span>Understanding of databases</span>(MongoDB, MySql)</li>
+
+                            
+                         </ul>
+                     </div>
+<!-- ------------------------------------------------------------------------------------------------------------------- -->
+                     <div class="tab-contents" id="experience">
+                        <ul>
+                           <li><span>Open Source Contributor:</span> Contributed to the Apertre'24 project, collaborating with a team of developers to enhance its functionality.</li>
+                           <li><span>Open Source  Contributor:</span>Contributed to the Hacktober fest project, collaborating with a team of developers to enhance its functionality.</li>
+                           <li><span>Smart India Hackathon (SIH):</span>Participated in the national-level hackathon, working with a team to develop innovative solutions for real-world problems.</li>   
+                        </ul>
+                    </div>
+
+<!-- --------------------------------------------------------------------------------------------------------------------- -->  
+    <div class="tab-contents" id="education">
+        <ul>
+           <li><span>Bachelor of Technology</span> Noida Institute Of Engineering and Technology scoring 87% throughout all sem</li>
+           <li><span>Intermediate Completed From</span>Vidya Bharti Chinmaya Vidyalaya with 88%</li>
+           <li><span>10th From</span>A.I.W.C Academy of Excellence with 87.5%</li>   
+        </ul>
+    </div>
+    </div>
+    </div>
+    </div>
+            
+        </div>
+    
+           
+
+
+
+<!-- ------------------Experience-------------------- -->
+ <div id="services">
+    <div class="container">
+        <h1 class="sub-title">My Experience</h1>
+        <div class="services-list">
+            <div>
+                <i class="fa-solid fa-code"></i>
+                <h2>Open Source Contribution</h2>
+                <p>Have actively participated in the open source contribution and contributed to many open source event </p>
+                <a href="#" class="learn-more" data-target="part-1">Learn more</a>
+                    <div class="hidden-content" id="part-1">
+                        <p>Actively contributed to various open source projects, including Hacktoberfest and Aperture'24. These contributions involved collaborating with diverse teams, resolving issues, and enhancing project features, which strengthened my coding skills and understanding of collaborative software development.
+                        </p>
+                    </div>
+
+
+            </div>
+            <div>
+                <i class="fa-solid fa-code"></i>
+                <h2>SIH(smart India Hackathon)</h2>
+                <p>Have actively participated in SIH at college Level and contributed to my team</p>
+                <a href="#" class="learn-more" data-target="part-2">Learn more</a>
+                <div class="hidden-content" id="part-2">
+                    <p>Actively participated in the Smart India Hackathon with my team, working on a real-world problem statement: Smart and Effective Parking. We developed a solution to optimize parking space usage and reduce congestion, enhancing my problem-solving skills and providing practical experience in tackling real-world issues.
+                    </p>
+                </div>
+            </div>
+            
+        </div>
+    </div>
+ </div>
+
+
+ <!-- ---------------------Achievement-------------- -->
+<div id="Portfolio">
+    <div class="container">
+        <h1 class="sub-title">My Achievement</h1>
+        <div class="achievement-list">
+            <div class="achievement">
+                <img src="images/a1_processed (1).png">
+                <div class="layer">
+                    <h3>HackerRank proficiency</h3>
+                    <ul>
+                        <li>Python:3-star</li>
+                        <li>C++:2-star</li>
+                        <li>Problem solving skills:1-star</li>
+                    </ul>
+                    
+                    <a href="https://www.hackerrank.com/profile/singhanjana259"><i class="fa-solid fa-link"></i></a>
+                </div>
+                    
+            </div>
+
+
+            <div class="achievement">
+                <img src="images/a1_processed (1).png">
+                    <div class="layer">
+                    <h3>Coding</h3>
+                    <p>Solved 100+ Question on Leetcode</p>
+                    <a href="https://leetcode.com/u/anjana_18/"><i class="fa-solid fa-link"></i></a>
+                    </div>
+            </div>
+
+            <div class="achievement">
+                <img src="images/a1_processed (1).png">
+                <div class="layer">
+                    
+                <h3>Girls Google Hackathon'2k24</h3>
+                <p>Have participated in Google-girls Hackathon 2k24 and reached till Level-1</p>
+                </div>
+            </div>
+
+        </div>
+        </div>
+    
+
+<!-- ------------------------------------------------------------------------------------------------------------- -->
+
+<!-- -------------------Projects-------------------- -->
+<div class="container text-center">
+    <a href="#" class="btn" id="see-more-btn">projects</a>
+</div>
+
+<div id="projects" class="hidden-content">
+    <div class="container">
+        <h1 class="sub-title">My Projects</h1>
+        <div class="project-list">
+            <div class="project">
+                <h3>Project 1: Intelligent Digit Reader</h3>
+                <p>Developed a machine learning model for handwritten digit classification using the MNIST dataset. Implemented a convolutional neural network (CNN) to accurately recognize and classify digits from 0 to 9. The model achieved high accuracy through effective preprocessing techniques and robust architecture design. This project enhanced my skills in deep learning, model evaluation, and Python programming.</p>
+                <a href="https://github.com/anjana-18Singh/Handwritten-Digit-Detection.git"><i class="fa-solid fa-link"></i></a>
+            </div>
+            <div class="project">
+                <h3>Project 2: Rock Paper Scissor game</h3>
+                <p>Developed an interactive Rock-Paper-Scissors game using Python. The game allows players to compete against the computer, which makes random choices. Implemented user input validation, game logic, and a scoring system to track wins, losses, and ties. This project enhanced my understanding of Python programming, conditional statements, and user interface design.</p>
+                <a href="https://github.com/anjana-18Singh/rock-paper-scissor-game.git"><i class="fa-solid fa-link"></i></a>
+            </div>
+            <!-- Add more projects as needed -->
+        </div>
+    </div>
+</div>
+
+
+<!-- -------------------------contact-info------------- -->
+<div id="contact">
+    <div class="container">
+        <div class="row">
+            <div class="contact-left">
+                <h1 class="sub-title">Contact Me</h1>
+                
+                <div class="social-icons">
+                    <a href="www.linkedin.com/in/anjana-singh-76a411240"><i class="fa-brands fa-linkedin"></i></a>
+                    <a href="singhanjana259@gmail"><i class="fa-solid fa-square-envelope"></i></i></a>
+                    <a href=" https://x.com/AnjanaSing81017?t=hAAG208ssG4QZvOqOoqohQ&s=08 "><i class="fa-brands fa-twitter"></i></a>
+                    <a href="https://www.instagram.com/invites/contact/?igsh=16vjzrz6po62x&utm_content=cr1hkp5"><i class="fa-brands fa-instagram"></i></a>
+
+                </div>
+                <a href="images/AKS_resume.pdf" download class="btn btn2">Download CV</a>
+
+            </div>
+            <div class="contact-right">
+                <form name="submit-to-google-sheet">
+                    <input type="text" name="Name" placeholder="your name" required>
+                    <input type="text" name="Email" placeholder="your email" required>
+                    <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+                    <button type="submit" class="btn btn2">submit</button>
+                    
+                </form>  
+                <Span id="msg"></Span>
+            </div>
+        </div>
+    </div>
+    <div class="copyright">
+        <p>Copyright <i class="fa-regular fa-copyright"> Anjana </i> made with <i class="fa-solid fa-heart"></i>  </p>
+    </div>
+
+</div>
+
+
+<script>
+    document.getElementById('see-more-btn').addEventListener('click', function(event) {
+    event.preventDefault();
+    var projectsDiv = document.getElementById('projects');
+    if (projectsDiv.style.display === 'none' || projectsDiv.style.display === '') {
+        projectsDiv.style.display = 'block';
+    } else {
+        projectsDiv.style.display = 'none';
+    }
+});
+
+
+var tablinks = document.getElementsByClassName("tab-links");
+        var tabcontents = document.getElementsByClassName("tab-contents");
+
+        function opentab(tabname) {
+            for (tablink of tablinks) {
+                tablink.classList.remove("active-link");
+            }
+
+            for (tabcontent of tabcontents) {
+                tabcontent.classList.remove("active-tab");
+            }
+
+            event.currentTarget.classList.add("active-links");
+            document.getElementById(tabname).classList.add("active-tab");
+        }
+
+
+    </script>
+
+    <script>
+        var sidemenu=document.getElementById("sidemenu");
+
+        function openmenu(){
+            sidemenu.style.right= "0";
+
+        }
+        function closemenu(){
+            sidemenu.style.right= "-200px";
+        }
+
+    </script> 
+
+<script>
+    const scriptURL = 'https://script.google.com/macros/s/AKfycbwwVX78hGmQ_jnNpMJLx65aIuA-mMT3uRGkFh83xHGfm7DM4SEdO2Ik7ky3z7FWbT9i/exec'
+    const form = document.forms['submit-to-google-sheet']
+
+    const msg=document.getElementById("msg")
+
+  
+    form.addEventListener('submit', e => {
+      e.preventDefault()
+      fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+        .then(response =>{
+            msg.innerHTML="Message sent successfully"
+            setTimeout(function(){
+                msg.innerHTML= ""
+            },5000)
+            form.reset()
+        } )
+        .catch(error => console.error('Error!', error.message))
+    })
+</script>
+
+<script>
+    document.addEventListener('DOMContentLoaded', function() {
+    const learnMoreLinks = document.querySelectorAll('.learn-more');
+
+    learnMoreLinks.forEach(link => {
+        link.addEventListener('click', function(event) {
+            event.preventDefault();
+            const targetId = this.getAttribute('data-target');
+            const content = document.getElementById(targetId);
+
+            if (content.classList.contains('active-content')) {
+                content.classList.remove('active-content');
+            } else {
+                // Hide any previously active content
+                document.querySelectorAll('.hidden-content').forEach(item => {
+                    item.classList.remove('active-content');
+                });
+                content.classList.add('active-content');
+
+
+                timeoutId=setTimeout(()=>{
+                    content.classList.remove('active content');
+                },100);
+            }
+        });
+    });
+});
+
+</script>
+<script>
+    document.addEventListener('DOMContentLoaded', function() {
+        const seeMoreBtn = document.getElementById('see-more-btn');
+        const projectsSection = document.getElementById('projects');
+
+        seeMoreBtn.addEventListener('click', function(event) {
+            event.preventDefault();
+            if (projectsSection.classList.contains('visible-content')) {
+                projectsSection.classList.remove('visible-content');
+                projectsSection.classList.add('hidden-content');
+            } else {
+                projectsSection.classList.remove('hidden-content');
+                projectsSection.classList.add('visible-content');
+            }
+        });
+    });
+
+    var tablinks = document.getElementsByClassName('tab-links');
+    var tabcontents = document.getElementsByClassName('tab-contents');
+
+    function opentab(tabname) {
+        for (var tablink of tablinks) {
+            tablink.classList.remove("active-link");
+        }
+
+        for (var tabcontent of tabcontents) {
+            tabcontent.classList.remove("active-tab");
+        }
+
+        event.currentTarget.classList.add("active-link");
+        document.getElementById(tabname).classList.add("active-tab");
+    }
+</script>
+
+<!-- ----------project----------------------- -->
+
+
+<script>
+    document.addEventListener('DOMContentLoaded', function() {
+        const seeMoreBtn = document.getElementById('see-more-btn');
+        const projectsSection = document.getElementById('projects');
+
+        seeMoreBtn.addEventListener('click', function(event) {
+            event.preventDefault();
+            projectsSection.classList.toggle('visible-content');
+            projectsSection.classList.toggle('hidden-content');
+        });
+    });
+
+    var tablinks = document.getElementsByClassName('tab-links');
+    var tabcontents = document.getElementsByClassName('tab-contents');
+
+    function opentab(tabname) {
+        for (var tablink of tablinks) {
+            tablink.classList.remove("active-link");
+        }
+
+        for (var tabcontent of tabcontents) {
+            tabcontent.classList.remove("active-tab");
+        }
+
+        event.currentTarget.classList.add("active-link");
+        document.getElementById(tabname).classList.add("active-tab");
+    }
+</script>
+
+
+</body>
+</html>
